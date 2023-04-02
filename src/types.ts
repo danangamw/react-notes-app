@@ -6,3 +6,8 @@ export type Note = {
   content: Content;
   updateAt: Date;
 };
+
+export type UserData = {
+  username: string;
+  passphrase: string;
+};
